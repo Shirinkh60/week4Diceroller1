@@ -28,7 +28,7 @@ public class Main {
             int[] dice = new int[numDice];
             for (int i = 0; i < numDice; i++) {
                 Random rand1 = new Random();
-                ;
+
                 dice[i] = rand1.nextInt(numSides) + 1;
             }
 
@@ -44,8 +44,6 @@ public class Main {
             Scanner input2 = new Scanner(System.in);
             System.out.println("Do you want to continue  rolling ? (Yes/N0)");
             answer = input2.next();
-           // char a = scan.next();
-           // answer= String.valueOf(scan.next());
 
         } while (answer.equalsIgnoreCase("yes"));
     }
